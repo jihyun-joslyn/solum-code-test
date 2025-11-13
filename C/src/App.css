@@ -1,0 +1,37 @@
+.app-content.MuiContainer-root {
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  top: 50%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.login-form.MuiCard-root, .login-success.MuiCard-root {
+  max-width: 50vh;
+  margin: auto;
+  padding: 16px;
+}
+
+.login-form .MuiCardHeader-content .MuiTypography-root, .login-success .MuiCardHeader-content .MuiTypography-root {
+  font-size: 1.75rem !important;
+}
+
+.login-form .MuiCardContent-root .MuiBox-root .MuiTextField-root {
+  margin: 8px;
+  width: 40vh;
+}
+
+.login-form .MuiCardContent-root .MuiBox-root .MuiTypography-root {
+  display: block;
+  margin: 8px 0px 0px 8px;
+}
+
+.login-form .MuiCardActions-root {
+  margin-left: 16px;
+}
+
+.login-success .MuiCardActions-root {
+  margin-left: 8px;
+}
